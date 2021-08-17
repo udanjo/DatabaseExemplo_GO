@@ -70,5 +70,6 @@ func MultiplesSelect(db *sql.DB) {
 		count++
 	}
 
+	//Print Total
 	fmt.Println("\nTotal de ", count)
 }
