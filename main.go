@@ -20,7 +20,7 @@ func main() {
 
 	u := &url.URL{
 		Scheme: "sqlserver",
-		User:   url.UserPassword("sa", "udanjo2011@"),
+		User:   url.UserPassword("sa", "password"), // Alterar o password
 		Host:   fmt.Sprintf("%s:%d", "localhost", 5434),
 		// Path:  instance, // if connecting to an instance instead of a port
 		RawQuery: query.Encode(),
